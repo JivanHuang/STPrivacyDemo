@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49200B87C966C3645F397416 /* libPods-STPrivacyDemo-STPrivacyDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F10F1273A4A262B134F9C7 /* libPods-STPrivacyDemo-STPrivacyDemoUITests.a */; };
+		4F1730AD1E5E1AD0C5C59769 /* libPods-STPrivacyDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 763914A0E94C9DA9C7678D8B /* libPods-STPrivacyDemoTests.a */; };
+		6A2FE1FA5B89E4C342B2DFF2 /* libPods-STPrivacyDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC00539840B8A9CE3FA46EF /* libPods-STPrivacyDemo.a */; };
+		8C807338247BAB65008E197E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C807337247BAB65008E197E /* AppDelegate.m */; };
+		8C80733B247BAB65008E197E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C80733A247BAB65008E197E /* SceneDelegate.m */; };
+		8C80733E247BAB65008E197E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C80733D247BAB65008E197E /* ViewController.m */; };
+		8C807341247BAB65008E197E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C80733F247BAB65008E197E /* Main.storyboard */; };
+		8C807343247BAB6C008E197E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C807342247BAB6C008E197E /* Assets.xcassets */; };
+		8C807346247BAB6C008E197E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C807344247BAB6C008E197E /* LaunchScreen.storyboard */; };
+		8C807349247BAB6C008E197E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C807348247BAB6C008E197E /* main.m */; };
+		8C807353247BAB6C008E197E /* STPrivacyDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C807352247BAB6C008E197E /* STPrivacyDemoTests.m */; };
+		8C80735E247BAB6C008E197E /* STPrivacyDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C80735D247BAB6C008E197E /* STPrivacyDemoUITests.m */; };
+		8C80736F247BAC10008E197E /* STPrivacyAuthorizationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C80736E247BAC10008E197E /* STPrivacyAuthorizationTool.m */; };
+		8C807375247BAD63008E197E /* STPrivacySettingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C807373247BAD63008E197E /* STPrivacySettingModel.m */; };
+		8C807378247BAD6C008E197E /* STPrivacySettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C807377247BAD6C008E197E /* STPrivacySettingCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C80734F247BAB6C008E197E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C80732B247BAB65008E197E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C807332247BAB65008E197E;
+			remoteInfo = STPrivacyDemo;
+		};
+		8C80735A247BAB6C008E197E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C80732B247BAB65008E197E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C807332247BAB65008E197E;
+			remoteInfo = STPrivacyDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		297CEABB2B8A06DD6A6D1256 /* Pods-STPrivacyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STPrivacyDemo.release.xcconfig"; path = "Target Support Files/Pods-STPrivacyDemo/Pods-STPrivacyDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2CC00539840B8A9CE3FA46EF /* libPods-STPrivacyDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-STPrivacyDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51F10F1273A4A262B134F9C7 /* libPods-STPrivacyDemo-STPrivacyDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-STPrivacyDemo-STPrivacyDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D31D74D3630D96B1829B9EF /* Pods-STPrivacyDemo-STPrivacyDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STPrivacyDemo-STPrivacyDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-STPrivacyDemo-STPrivacyDemoUITests/Pods-STPrivacyDemo-STPrivacyDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		763914A0E94C9DA9C7678D8B /* libPods-STPrivacyDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-STPrivacyDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C807333247BAB65008E197E /* STPrivacyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STPrivacyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C807336247BAB65008E197E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8C807337247BAB65008E197E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8C807339247BAB65008E197E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		8C80733A247BAB65008E197E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		8C80733C247BAB65008E197E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8C80733D247BAB65008E197E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8C807340247BAB65008E197E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C807342247BAB6C008E197E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C807345247BAB6C008E197E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C807347247BAB6C008E197E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C807348247BAB6C008E197E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C80734E247BAB6C008E197E /* STPrivacyDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STPrivacyDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C807352247BAB6C008E197E /* STPrivacyDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STPrivacyDemoTests.m; sourceTree = "<group>"; };
+		8C807354247BAB6C008E197E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C807359247BAB6C008E197E /* STPrivacyDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STPrivacyDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C80735D247BAB6C008E197E /* STPrivacyDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STPrivacyDemoUITests.m; sourceTree = "<group>"; };
+		8C80735F247BAB6C008E197E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C80736C247BABD4008E197E /* STPrivacyDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STPrivacyDefine.h; sourceTree = "<group>"; };
+		8C80736D247BAC10008E197E /* STPrivacyAuthorizationTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STPrivacyAuthorizationTool.h; sourceTree = "<group>"; };
+		8C80736E247BAC10008E197E /* STPrivacyAuthorizationTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STPrivacyAuthorizationTool.m; sourceTree = "<group>"; };
+		8C807373247BAD63008E197E /* STPrivacySettingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPrivacySettingModel.m; sourceTree = "<group>"; };
+		8C807374247BAD63008E197E /* STPrivacySettingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPrivacySettingModel.h; sourceTree = "<group>"; };
+		8C807376247BAD6C008E197E /* STPrivacySettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPrivacySettingCell.h; sourceTree = "<group>"; };
+		8C807377247BAD6C008E197E /* STPrivacySettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPrivacySettingCell.m; sourceTree = "<group>"; };
+		99DE022954D3DA6BE2952A8D /* Pods-STPrivacyDemo-STPrivacyDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STPrivacyDemo-STPrivacyDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-STPrivacyDemo-STPrivacyDemoUITests/Pods-STPrivacyDemo-STPrivacyDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AC0C0F9F560B5FF4D5F9B44E /* Pods-STPrivacyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STPrivacyDemo.debug.xcconfig"; path = "Target Support Files/Pods-STPrivacyDemo/Pods-STPrivacyDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C03193555BF92E0E9B5DF51C /* Pods-STPrivacyDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STPrivacyDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-STPrivacyDemoTests/Pods-STPrivacyDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D1AEFEC9C8ED5A9DCEDF977C /* Pods-STPrivacyDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STPrivacyDemoTests.release.xcconfig"; path = "Target Support Files/Pods-STPrivacyDemoTests/Pods-STPrivacyDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C807330247BAB65008E197E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A2FE1FA5B89E4C342B2DFF2 /* libPods-STPrivacyDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C80734B247BAB6C008E197E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1730AD1E5E1AD0C5C59769 /* libPods-STPrivacyDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C807356247BAB6C008E197E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49200B87C966C3645F397416 /* libPods-STPrivacyDemo-STPrivacyDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BA52A55F4423B204C951276 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CC00539840B8A9CE3FA46EF /* libPods-STPrivacyDemo.a */,
+				51F10F1273A4A262B134F9C7 /* libPods-STPrivacyDemo-STPrivacyDemoUITests.a */,
+				763914A0E94C9DA9C7678D8B /* libPods-STPrivacyDemoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C80732A247BAB65008E197E = {
+			isa = PBXGroup;
+			children = (
+				8C807335247BAB65008E197E /* STPrivacyDemo */,
+				8C807351247BAB6C008E197E /* STPrivacyDemoTests */,
+				8C80735C247BAB6C008E197E /* STPrivacyDemoUITests */,
+				8C807334247BAB65008E197E /* Products */,
+				CA557157A4F457FD65894BE4 /* Pods */,
+				7BA52A55F4423B204C951276 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8C807334247BAB65008E197E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C807333247BAB65008E197E /* STPrivacyDemo.app */,
+				8C80734E247BAB6C008E197E /* STPrivacyDemoTests.xctest */,
+				8C807359247BAB6C008E197E /* STPrivacyDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C807335247BAB65008E197E /* STPrivacyDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8C807370247BAD09008E197E /* Demo */,
+				8C80736B247BABAE008E197E /* STPrivacyTool */,
+				8C807336247BAB65008E197E /* AppDelegate.h */,
+				8C807337247BAB65008E197E /* AppDelegate.m */,
+				8C807339247BAB65008E197E /* SceneDelegate.h */,
+				8C80733A247BAB65008E197E /* SceneDelegate.m */,
+				8C807342247BAB6C008E197E /* Assets.xcassets */,
+				8C807344247BAB6C008E197E /* LaunchScreen.storyboard */,
+				8C807347247BAB6C008E197E /* Info.plist */,
+				8C807348247BAB6C008E197E /* main.m */,
+			);
+			path = STPrivacyDemo;
+			sourceTree = "<group>";
+		};
+		8C807351247BAB6C008E197E /* STPrivacyDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C807352247BAB6C008E197E /* STPrivacyDemoTests.m */,
+				8C807354247BAB6C008E197E /* Info.plist */,
+			);
+			path = STPrivacyDemoTests;
+			sourceTree = "<group>";
+		};
+		8C80735C247BAB6C008E197E /* STPrivacyDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C80735D247BAB6C008E197E /* STPrivacyDemoUITests.m */,
+				8C80735F247BAB6C008E197E /* Info.plist */,
+			);
+			path = STPrivacyDemoUITests;
+			sourceTree = "<group>";
+		};
+		8C80736B247BABAE008E197E /* STPrivacyTool */ = {
+			isa = PBXGroup;
+			children = (
+				8C80736C247BABD4008E197E /* STPrivacyDefine.h */,
+				8C80736D247BAC10008E197E /* STPrivacyAuthorizationTool.h */,
+				8C80736E247BAC10008E197E /* STPrivacyAuthorizationTool.m */,
+			);
+			path = STPrivacyTool;
+			sourceTree = "<group>";
+		};
+		8C807370247BAD09008E197E /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				8C807372247BAD46008E197E /* Model */,
+				8C807371247BAD41008E197E /* View */,
+				8C80733C247BAB65008E197E /* ViewController.h */,
+				8C80733D247BAB65008E197E /* ViewController.m */,
+				8C80733F247BAB65008E197E /* Main.storyboard */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		8C807371247BAD41008E197E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8C807376247BAD6C008E197E /* STPrivacySettingCell.h */,
+				8C807377247BAD6C008E197E /* STPrivacySettingCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8C807372247BAD46008E197E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8C807374247BAD63008E197E /* STPrivacySettingModel.h */,
+				8C807373247BAD63008E197E /* STPrivacySettingModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CA557157A4F457FD65894BE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC0C0F9F560B5FF4D5F9B44E /* Pods-STPrivacyDemo.debug.xcconfig */,
+				297CEABB2B8A06DD6A6D1256 /* Pods-STPrivacyDemo.release.xcconfig */,
+				5D31D74D3630D96B1829B9EF /* Pods-STPrivacyDemo-STPrivacyDemoUITests.debug.xcconfig */,
+				99DE022954D3DA6BE2952A8D /* Pods-STPrivacyDemo-STPrivacyDemoUITests.release.xcconfig */,
+				C03193555BF92E0E9B5DF51C /* Pods-STPrivacyDemoTests.debug.xcconfig */,
+				D1AEFEC9C8ED5A9DCEDF977C /* Pods-STPrivacyDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C807332247BAB65008E197E /* STPrivacyDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C807362247BAB6C008E197E /* Build configuration list for PBXNativeTarget "STPrivacyDemo" */;
+			buildPhases = (
+				2D45D8C74372B48C4B218233 /* [CP] Check Pods Manifest.lock */,
+				8C80732F247BAB65008E197E /* Sources */,
+				8C807330247BAB65008E197E /* Frameworks */,
+				8C807331247BAB65008E197E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STPrivacyDemo;
+			productName = STPrivacyDemo;
+			productReference = 8C807333247BAB65008E197E /* STPrivacyDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C80734D247BAB6C008E197E /* STPrivacyDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C807365247BAB6C008E197E /* Build configuration list for PBXNativeTarget "STPrivacyDemoTests" */;
+			buildPhases = (
+				E89CF8BB50F07B0E3AB7DB6B /* [CP] Check Pods Manifest.lock */,
+				8C80734A247BAB6C008E197E /* Sources */,
+				8C80734B247BAB6C008E197E /* Frameworks */,
+				8C80734C247BAB6C008E197E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C807350247BAB6C008E197E /* PBXTargetDependency */,
+			);
+			name = STPrivacyDemoTests;
+			productName = STPrivacyDemoTests;
+			productReference = 8C80734E247BAB6C008E197E /* STPrivacyDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C807358247BAB6C008E197E /* STPrivacyDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C807368247BAB6C008E197E /* Build configuration list for PBXNativeTarget "STPrivacyDemoUITests" */;
+			buildPhases = (
+				9755B42C8E4A8314FA2FD775 /* [CP] Check Pods Manifest.lock */,
+				8C807355247BAB6C008E197E /* Sources */,
+				8C807356247BAB6C008E197E /* Frameworks */,
+				8C807357247BAB6C008E197E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C80735B247BAB6C008E197E /* PBXTargetDependency */,
+			);
+			name = STPrivacyDemoUITests;
+			productName = STPrivacyDemoUITests;
+			productReference = 8C807359247BAB6C008E197E /* STPrivacyDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C80732B247BAB65008E197E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Jivan;
+				TargetAttributes = {
+					8C807332247BAB65008E197E = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					8C80734D247BAB6C008E197E = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 8C807332247BAB65008E197E;
+					};
+					8C807358247BAB6C008E197E = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 8C807332247BAB65008E197E;
+					};
+				};
+			};
+			buildConfigurationList = 8C80732E247BAB65008E197E /* Build configuration list for PBXProject "STPrivacyDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C80732A247BAB65008E197E;
+			productRefGroup = 8C807334247BAB65008E197E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C807332247BAB65008E197E /* STPrivacyDemo */,
+				8C80734D247BAB6C008E197E /* STPrivacyDemoTests */,
+				8C807358247BAB6C008E197E /* STPrivacyDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C807331247BAB65008E197E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C807346247BAB6C008E197E /* LaunchScreen.storyboard in Resources */,
+				8C807343247BAB6C008E197E /* Assets.xcassets in Resources */,
+				8C807341247BAB65008E197E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C80734C247BAB6C008E197E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C807357247BAB6C008E197E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D45D8C74372B48C4B218233 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-STPrivacyDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9755B42C8E4A8314FA2FD775 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-STPrivacyDemo-STPrivacyDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E89CF8BB50F07B0E3AB7DB6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-STPrivacyDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C80732F247BAB65008E197E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C80733E247BAB65008E197E /* ViewController.m in Sources */,
+				8C80736F247BAC10008E197E /* STPrivacyAuthorizationTool.m in Sources */,
+				8C807338247BAB65008E197E /* AppDelegate.m in Sources */,
+				8C807349247BAB6C008E197E /* main.m in Sources */,
+				8C807378247BAD6C008E197E /* STPrivacySettingCell.m in Sources */,
+				8C807375247BAD63008E197E /* STPrivacySettingModel.m in Sources */,
+				8C80733B247BAB65008E197E /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C80734A247BAB6C008E197E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C807353247BAB6C008E197E /* STPrivacyDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C807355247BAB6C008E197E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C80735E247BAB6C008E197E /* STPrivacyDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C807350247BAB6C008E197E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C807332247BAB65008E197E /* STPrivacyDemo */;
+			targetProxy = 8C80734F247BAB6C008E197E /* PBXContainerItemProxy */;
+		};
+		8C80735B247BAB6C008E197E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C807332247BAB65008E197E /* STPrivacyDemo */;
+			targetProxy = 8C80735A247BAB6C008E197E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C80733F247BAB65008E197E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C807340247BAB65008E197E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C807344247BAB6C008E197E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C807345247BAB6C008E197E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C807360247BAB6C008E197E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8C807361247BAB6C008E197E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C807363247BAB6C008E197E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC0C0F9F560B5FF4D5F9B44E /* Pods-STPrivacyDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56EN3K39NQ;
+				INFOPLIST_FILE = STPrivacyDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jivan.STPrivacyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C807364247BAB6C008E197E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 297CEABB2B8A06DD6A6D1256 /* Pods-STPrivacyDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56EN3K39NQ;
+				INFOPLIST_FILE = STPrivacyDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jivan.STPrivacyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C807366247BAB6C008E197E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C03193555BF92E0E9B5DF51C /* Pods-STPrivacyDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56EN3K39NQ;
+				INFOPLIST_FILE = STPrivacyDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jivan.STPrivacyDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STPrivacyDemo.app/STPrivacyDemo";
+			};
+			name = Debug;
+		};
+		8C807367247BAB6C008E197E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1AEFEC9C8ED5A9DCEDF977C /* Pods-STPrivacyDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56EN3K39NQ;
+				INFOPLIST_FILE = STPrivacyDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jivan.STPrivacyDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STPrivacyDemo.app/STPrivacyDemo";
+			};
+			name = Release;
+		};
+		8C807369247BAB6C008E197E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D31D74D3630D96B1829B9EF /* Pods-STPrivacyDemo-STPrivacyDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56EN3K39NQ;
+				INFOPLIST_FILE = STPrivacyDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jivan.STPrivacyDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = STPrivacyDemo;
+			};
+			name = Debug;
+		};
+		8C80736A247BAB6C008E197E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99DE022954D3DA6BE2952A8D /* Pods-STPrivacyDemo-STPrivacyDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56EN3K39NQ;
+				INFOPLIST_FILE = STPrivacyDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jivan.STPrivacyDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = STPrivacyDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C80732E247BAB65008E197E /* Build configuration list for PBXProject "STPrivacyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C807360247BAB6C008E197E /* Debug */,
+				8C807361247BAB6C008E197E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C807362247BAB6C008E197E /* Build configuration list for PBXNativeTarget "STPrivacyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C807363247BAB6C008E197E /* Debug */,
+				8C807364247BAB6C008E197E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C807365247BAB6C008E197E /* Build configuration list for PBXNativeTarget "STPrivacyDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C807366247BAB6C008E197E /* Debug */,
+				8C807367247BAB6C008E197E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C807368247BAB6C008E197E /* Build configuration list for PBXNativeTarget "STPrivacyDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C807369247BAB6C008E197E /* Debug */,
+				8C80736A247BAB6C008E197E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C80732B247BAB65008E197E /* Project object */;
+}
