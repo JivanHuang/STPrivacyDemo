@@ -1,5 +1,5 @@
 # STPrivacyDemo
-*A utility class that manages common privacy permissions*
+A utility class that manages common privacy permissions reference to [ECAuthorizationTools]( https://github.com/EchoZuo/ECAuthorizationTools.git)
 
 **Effect: **
 
