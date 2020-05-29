@@ -6,7 +6,7 @@ target 'STPrivacyDemo' do
   #use_frameworks!
   
   # Pods for STPrivacyDemo
-#	pod 'Masonry'
+	pod 'Masonry'
 
   target 'STPrivacyDemoTests' do
     inherit! :search_paths
