@@ -1,7 +1,7 @@
 # STPrivacyDemo
 A utility class that manages common privacy permissions reference to [ECAuthorizationTools]( https://github.com/EchoZuo/ECAuthorizationTools.git)
 
-**Effect: **
+**Effect:**
 
 ![隐私权限](README.assets/隐私权限.gif)
 
