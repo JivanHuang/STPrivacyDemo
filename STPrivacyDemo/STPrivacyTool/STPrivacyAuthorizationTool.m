@@ -242,7 +242,7 @@
 }
 + (void)requestPhotosWithAccessStatus:(AccessForTypeResultBlock)accessStatusCallBack{
     
-    STAuthorizationStatus status = [STPrivacyAuthorizationTool checkContactsAuthorizationStatus];
+    STAuthorizationStatus status = [STPrivacyAuthorizationTool checkPhotosAuthorizationStatus];
     if (status == STAuthorizationStatus_NotDetermined) {
         if (_isiOS8_Or_Later_) {
             [PHPhotoLibrary requestAuthorization:^(PHAuthorizationStatus status) {
@@ -283,7 +283,7 @@
 }
 + (void)requestMicrophoneWithAccessStatus:(AccessForTypeResultBlock)accessStatusCallBack{
     
-    STAuthorizationStatus status = [STPrivacyAuthorizationTool checkContactsAuthorizationStatus];
+    STAuthorizationStatus status = [STPrivacyAuthorizationTool checkMicrophoneAuthorizationStatus];
     if (status == STAuthorizationStatus_NotDetermined) {
         [[AVAudioSession sharedInstance] requestRecordPermission:^(BOOL granted) {
             if (granted) {
@@ -315,7 +315,7 @@
 }
 + (void)requestCameraWithAccessStatus:(AccessForTypeResultBlock)accessStatusCallBack{
     
-    STAuthorizationStatus status = [STPrivacyAuthorizationTool checkContactsAuthorizationStatus];
+    STAuthorizationStatus status = [STPrivacyAuthorizationTool checkCameraAuthorizationStatus];
     if (status == STAuthorizationStatus_NotDetermined) {
         [AVCaptureDevice requestAccessForMediaType:AVMediaTypeVideo completionHandler:^(BOOL granted) {
             if (granted) {
@@ -351,7 +351,7 @@
 
 + (void)requestCalendarsWithAccessStatus:(AccessForTypeResultBlock)accessStatusCallBack{
     
-    STAuthorizationStatus status = [STPrivacyAuthorizationTool checkContactsAuthorizationStatus];
+    STAuthorizationStatus status = [STPrivacyAuthorizationTool checkCalendarsAuthorizationStatus];
     if (status == STAuthorizationStatus_NotDetermined) {
         EKEventStore *store = [[EKEventStore alloc] init];
         [store requestAccessToEntityType:EKEntityTypeEvent completion:^(BOOL granted, NSError * _Nullable error) {
@@ -397,7 +397,7 @@
 
 + (void)requestRemindersWithAccessStatus:(AccessForTypeResultBlock)accessStatusCallBack{
     
-    STAuthorizationStatus status = [STPrivacyAuthorizationTool checkContactsAuthorizationStatus];
+    STAuthorizationStatus status = [STPrivacyAuthorizationTool checkRemindersAuthorizationStatus];
     if (status == STAuthorizationStatus_NotDetermined) {
         EKEventStore *store = [[EKEventStore alloc] init];
         [store requestAccessToEntityType:EKEntityTypeReminder completion:^(BOOL granted, NSError * _Nullable error) {
